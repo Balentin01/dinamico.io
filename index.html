@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Menu Dinamico</title>
+<link rel="stylesheet" href="estilos.css">
+<link href="https://fonts.googleapis.com/css2?family=Moon+Dance&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+    <div class="titulo">
+        <h1>Menú dinámico</h1>
+    </div>
+    <nav>
+        <ul class="menu" id="menu"><li><a href="/inicio">Inicio</a></li><li><a href="/servicios">Servicios</a></li><li><a href="/contacto">Contacto</a></li>
+    </nav>
+</header>
+    
+
+    <!-- Formulario para agregar elementos al menú -->
+    <div class="menu-form">
+        <h2>Agregar nueva opción al menú:</h2>
+        
+        <input type="text" id="menuName" placeholder="Nombre del menú" required="">
+        <input type="text" id="menuLink" placeholder="Enlace del menú" required="">
+        <button onclick="addMenuItem()">Agregar Opción</button>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
